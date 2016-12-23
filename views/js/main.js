@@ -525,7 +525,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var scrollingPizzas = document.getElementById('movingPizzas1');
   // Karol's suggestion for backgrond pizza number based on viewport
   var intViewportWidth = window.innerWidth;
-  for (var i = 0, elem; i < 30; i++) {
+  for (var i = 0, elem; i < 24; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
