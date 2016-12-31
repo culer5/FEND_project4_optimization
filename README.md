@@ -1,6 +1,12 @@
 ## Website Performance Optimization portfolio project
 
-Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
+* Minified the css/print.css
+* Minified the css/style.css
+* Inlined the css/print.css and css/style.css into the index.html folder
+* Optimized all of the images in the images and views/images folders to help with load times
+* Made a few changes in the views/style.css file to adjust the background pizzas
+* Inlined the views/style.css into the pizza.html file
+* Edited views/js/main.js to help stabilize page speed and reach 60fps
 
 To get started, check out the repository and inspect the code.
 
